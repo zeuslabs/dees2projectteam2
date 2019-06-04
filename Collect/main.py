@@ -16,19 +16,24 @@ def main():
     # db = Database()
     for Parser in parser_class.values():
         parser = Parser()
-
+       
         for currency in parser.currency:
             params = {"currency": currency}
             
             response = parser.get_response(params)
 
-            parser.save(response, currency)
+            print (currency + " : Response Success!")
 
-            model = parser.parse(response, currency)
+            parser.save(response, currency)
+            print (currency + " : Save Success!")
+
+            # model = parser.parse(response, currency)
+            print ("================================")
            
     #         db.insert(model)
 
     # send_message("#data-monitoring", "Save data finished!")
+    print ("Save data finished!")
 
 if __name__ == '__main__':
     main()
