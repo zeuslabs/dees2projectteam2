@@ -7,4 +7,4 @@ fi
 ((
   cd ./Collect/ && \
   python main.py
-) > ./log/collect_$(date '+%Y%m%d').log 2>&1)
+) > ./log/collect_$(date '+%Y%m%d%H%M%S').log 2>&1)
