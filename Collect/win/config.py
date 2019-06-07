@@ -2,7 +2,7 @@ class Config:
     APP_NAME = 'FCDEES2PROJECTTEAM2'
     DATABASE_URI = 'mysql+pymysql://USER:PROJECT@IP_ADDRESS:PORT/DB_NAME'
     SLACK_TOKEN = '{SLACK_TOKEN}'
-    ROOT_RAW_PATH = "/workspace/dees2projectteam2/S3/RAW_DATA"
+    ROOT_RAW_PATH = "E:\FastCampus\ProjectTeam2\S3\RAW_DATA"
 
 
 class Source:

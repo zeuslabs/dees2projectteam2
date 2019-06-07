@@ -38,15 +38,13 @@ class ParserKorbit:
         date = result["timestamp"]
 
         # root path
-        #fullpath = Config.ROOT_RAW_PATH
-        fullpath = os.path.expanduser('~')        
-        fullpath += Config.ROOT_RAW_PATH
+        fullpath = Config.ROOT_RAW_PATH
         
         # file path
-        filepath = self.model.__tablename__ + "/" + datetime.now().strftime('%Y/%m/%d')
+        filepath = self.model.__tablename__ + "\\" + datetime.now().strftime('%Y\%m\%d')
             
-        for folder in filepath.split("/"):
-            fullpath += "/" + folder 
+        for folder in filepath.split("\\"):
+            fullpath += "\\" + folder 
             if not os.path.isdir(fullpath):
                 os.mkdir(fullpath)
        
@@ -54,10 +52,11 @@ class ParserKorbit:
         filename = currency + "_" + str(date) + ".json" 
 
         # full path
-        fullpath += "/" + filename
+        fullpath += "\\" + filename
 
         jstring = json.dumps(response.json(), indent=4)
         
         f = open(fullpath, "w")
         f.write(jstring)
         f.close()
+

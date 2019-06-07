@@ -2,7 +2,7 @@ from datetime import datetime
 
 from config import Source
 from config import Config
-from fastcampus.dees2.module.models import Korbit
+from fastcampus.dees2.module.models import Bithumb
 import requests
 
 # from utils.slack import send_message
@@ -10,11 +10,11 @@ import json
 import os
 
 
-class ParserKorbit:
+class ParserBithumb:
     def __init__(self):
-        self.model = Korbit
-        self.url = Source.KORBIT_URI
-        self.currency = ["btc_krw", "eth_krw"]
+        self.model = Bithumb
+        self.url = Source.BITHUMB_URI
+        self.currency = ["BTC", "ETH"]
 
     def get_response(self, params):
         try:
@@ -27,37 +27,37 @@ class ParserKorbit:
             return "Connection Failed!"
 
     def parse(self, response, currency):
-        result = response.json()
-        price = result["last"]
-        volume = result["volume"]
-        self.model = Korbit(datetime.utcnow(), price, volume, currency)
+        result = response.json()["data"]
+        price = result["closing_price"]
+        volume = result["units_traded"]
+        self.model = Bithumb(datetime.utcnow(), price, volume, currency)
         return self.model
 
     def save( self,response, currency):
-        result = response.json()
-        date = result["timestamp"]
+        
+        result = response.json()["data"]
+        date = result["date"]
 
         # root path
-        #fullpath = Config.ROOT_RAW_PATH
-        fullpath = os.path.expanduser('~')        
-        fullpath += Config.ROOT_RAW_PATH
+        fullpath = Config.ROOT_RAW_PATH
         
         # file path
-        filepath = self.model.__tablename__ + "/" + datetime.now().strftime('%Y/%m/%d')
+        filepath = self.model.__tablename__ + "\\" + datetime.now().strftime('%Y\%m\%d')
             
-        for folder in filepath.split("/"):
-            fullpath += "/" + folder 
+        for folder in filepath.split("\\"):
+            fullpath += "\\" + folder 
             if not os.path.isdir(fullpath):
                 os.mkdir(fullpath)
        
         # file name
-        filename = currency + "_" + str(date) + ".json" 
+        filename = currency + "_" + date + ".json" 
 
         # full path
-        fullpath += "/" + filename
+        fullpath += "\\" + filename
 
         jstring = json.dumps(response.json(), indent=4)
         
         f = open(fullpath, "w")
         f.write(jstring)
         f.close()
+        

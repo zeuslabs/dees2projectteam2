@@ -39,25 +39,30 @@ class ParserBithumb:
         date = result["date"]
 
         # root path
-        fullpath = Config.ROOT_RAW_PATH
-        
+        #fullpath = Config.ROOT_RAW_PATH
+        fullpath = os.path.expanduser('~')        
+        fullpath += Config.ROOT_RAW_PATH
+        # print(fullpath)
+
         # file path
-        filepath = self.model.__tablename__ + "\\" + datetime.now().strftime('%Y\%m\%d')
+        filepath = self.model.__tablename__ + "/" + datetime.now().strftime('%Y/%m/%d')
             
-        for folder in filepath.split("\\"):
-            fullpath += "\\" + folder 
+        for folder in filepath.split("/"):
+            fullpath += "/" + folder
+            # print(fullpath)
+            # print (os.path.isdir(fullpath))
             if not os.path.isdir(fullpath):
                 os.mkdir(fullpath)
+                print("make folder")
        
         # file name
         filename = currency + "_" + date + ".json" 
 
         # full path
-        fullpath += "\\" + filename
+        fullpath += "/" + filename
 
         jstring = json.dumps(response.json(), indent=4)
         
         f = open(fullpath, "w")
         f.write(jstring)
         f.close()
-        
