@@ -17,3 +17,14 @@ eth_krw : Response Success!
 eth_krw : Save Success!
 ================================
 Save data finished!
+[master 558d6cd] update
+ 9 files changed, 117 insertions(+), 1 deletion(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560022829232.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560022829271.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560022829.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560022829.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/btc_krw_1560022707419.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/eth_krw_1560022707419.json
+ create mode 100644 log/collect_20190609044033.log
+To github.com:zeuslabs/dees2projectteam2.git
+   9e87c8b..558d6cd  master -> master
