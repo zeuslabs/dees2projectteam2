@@ -5,7 +5,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 ((
-  ./Collect/python main.py;
+  python ./Collect/main.py;
   git add .;
   git commit -m "update";
   git push

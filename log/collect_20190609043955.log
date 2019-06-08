@@ -1,1 +1,6 @@
 ./bin/collect.sh: 8: ./bin/collect.sh: ./Collect/python: not found
+[master 9e87c8b] update
+ 2 files changed, 6 insertions(+)
+ create mode 100644 log/collect_20190609043955.log
+To github.com:zeuslabs/dees2projectteam2.git
+   309bc9f..9e87c8b  master -> master
