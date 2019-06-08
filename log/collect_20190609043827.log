@@ -1,1 +1,30 @@
 ./bin/collect.sh: 8: ./bin/collect.sh: ./Collect/python: not found
+[master 6336a0e] update
+ 26 files changed, 501 insertions(+), 2 deletions(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560022405073.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560022449378.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560022509914.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560022579363.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560022405073.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560022449461.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560022509972.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560022579458.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560022404.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560022449.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560022509.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560022579.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560022405.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560022449.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560022510.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560022579.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/btc_krw_1560022388594.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/btc_krw_1560022532000.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/eth_krw_1560022388594.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/eth_krw_1560022532000.json
+ create mode 100644 log/collect_20190609043328.log
+ create mode 100644 log/collect_20190609043413.log
+ create mode 100644 log/collect_20190609043514.log
+ create mode 100644 log/collect_20190609043623.log
+ create mode 100644 log/collect_20190609043827.log
+To github.com:zeuslabs/dees2projectteam2.git
+   be7fd72..6336a0e  master -> master
