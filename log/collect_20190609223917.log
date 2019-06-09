@@ -18,3 +18,33 @@ eth_krw : Save Success!
 ================================
 Save data finished!
 2019-06-09 22:39:19
+[master 0c85f03] update
+ 25 files changed, 103 insertions(+), 501 deletions(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/BTC_1560087549834.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/09/ETH_1560087549930.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/btc_1560087549.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/09/eth_1560087549.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/btc_krw_1560087531735.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/09/eth_krw_1560087531735.json
+ delete mode 100644 log/collect_20190608015805.log
+ delete mode 100644 log/collect_20190608021322.log
+ delete mode 100644 log/collect_20190608023715.log
+ delete mode 100644 log/collect_20190609043328.log
+ delete mode 100644 log/collect_20190609043413.log
+ delete mode 100644 log/collect_20190609043514.log
+ delete mode 100644 log/collect_20190609043623.log
+ delete mode 100644 log/collect_20190609043827.log
+ delete mode 100644 log/collect_20190609043852.log
+ delete mode 100644 log/collect_20190609043955.log
+ delete mode 100644 log/collect_20190609044033.log
+ delete mode 100644 log/collect_20190609044047.log
+ delete mode 100644 log/collect_20190609044313.log
+ delete mode 100644 log/collect_20190609044337.log
+ delete mode 100644 log/collect_20190609213009.log
+ delete mode 100644 log/collect_20190609222059.log
+ delete mode 100644 log/collect_20190609222142.log
+ rename log/{collect_20190609222121.log => collect_20190609222406.log} (52%)
+ rename log/{collect_20190608.log => collect_20190609223917.log} (96%)
+To github.com:zeuslabs/dees2projectteam2.git
+   29bf821..0c85f03  master -> master
+2019-06-09 22:39:24
