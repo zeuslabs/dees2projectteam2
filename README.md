@@ -29,14 +29,19 @@
 
 ## Collect schedule
 - AirFlow
-    - 스케줄
+    - DAG - [collect]
     ```
         1분마다 실행
     ```
-    - task 내용
-    ```
+    - Task
+        - [print_date]
+        ```
+        - 날짜 print
+        ```
+        - [collect_task]        
+        ```
         - ./bin/collect.sh shell 을 실행
         - Repository 에 년/월/일 경로에 json 파일 저장
         - 저장된 파일을 git push 
-    ```
+        ```
 
