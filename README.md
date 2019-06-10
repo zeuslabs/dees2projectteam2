@@ -28,5 +28,15 @@
 
 
 ## Collect schedule
-- AirFlow [ 작업중.... ]
+- AirFlow
+    - 스케줄
+    ```
+        1분마다 실행
+    ```
+    - 내용
+    ```
+        - ./bin/collect.sh shell 을 실행
+        - Repository 에 년/월/일 경로에 json 파일 저장
+        - 저장된 파일을 git push 
+    ```
 
