@@ -5,6 +5,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 ((
+
+  echo 'start run'
   python ./Collect/main.py;
   date +'%Y-%m-%d %X';
 
