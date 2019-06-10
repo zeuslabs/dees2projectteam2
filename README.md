@@ -28,7 +28,7 @@
 
 
 ## Collect schedule
-- AirFlow
+- AirFlow [ ./airflow/collect.py ]
 
     ![AirFlow](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/airflow.JPG)
     - DAG - [collect]
@@ -44,7 +44,7 @@
         ```
         - [collect_task]        
         ```
-            - ./bin/collect.sh shell 을 실행
+            - [ ]./bin/collect.sh ] shell 을 실행
             - Repository 에 년/월/일 경로에 json 파일 저장
             - 저장된 파일을 git push 
         ```
