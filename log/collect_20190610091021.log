@@ -19,3 +19,15 @@ eth_krw : Save Success!
 ================================
 Save data finished!
 2019-06-10 09:10:28
+[master dfd43d7] update
+ 8 files changed, 125 insertions(+)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560125407066.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560125407480.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560125406.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560125406.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560125352576.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560125352576.json
+ create mode 100644 log/collect_20190610091021.log
+To github.com:zeuslabs/dees2projectteam2.git
+   3038650..dfd43d7  master -> master
+2019-06-10 09:10:36
