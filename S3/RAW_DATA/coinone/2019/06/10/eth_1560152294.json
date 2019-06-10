@@ -1,0 +1,16 @@
+{
+    "low": "281000.0", 
+    "yesterday_last": "299100.0", 
+    "last": "291000.0", 
+    "yesterday_volume": "11099.8401", 
+    "timestamp": "1560152294", 
+    "yesterday_low": "295300.0", 
+    "volume": "25597.9051", 
+    "currency": "eth", 
+    "high": "300200.0", 
+    "result": "success", 
+    "errorCode": "0", 
+    "yesterday_first": "301650.0", 
+    "yesterday_high": "304450.0", 
+    "first": "299100.0"
+}
