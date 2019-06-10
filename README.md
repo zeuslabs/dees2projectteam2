@@ -30,10 +30,12 @@
 ## Collect schedule
 - AirFlow
     - DAG - [collect]
+    ![DAG](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/dag.JPG)    
     ```
         1분마다 실행
     ```
     - Task
+        ![TASK](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/task.JPG)    
         - [print_date]
         ```
         - 날짜 print
