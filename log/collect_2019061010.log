@@ -1,356 +1,3 @@
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:46:44
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:47:48
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:48:52
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:49:56
-[master 1846dd4] auto git push
- 68 files changed, 690 insertions(+), 952 deletions(-)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131015819.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131080121.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131140576.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131203474.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131267806.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131331610.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131396381.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131015939.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131079326.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131140629.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131203587.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131267020.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131330804.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131395571.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131016.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131080.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131141.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131204.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131267.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131331.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131396.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131016.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131080.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131141.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131204.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131267.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131331.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131396.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560130975930.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131134413.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131248916.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560130975930.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131134413.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131248916.json
- create mode 100644 bin/gitpush.sh
- delete mode 100644 log/collect_20190609222200.log
- delete mode 100644 log/collect_20190609222217.log
- delete mode 100644 log/collect_20190609222238.log
- delete mode 100644 log/collect_20190609222300.log
- delete mode 100644 log/collect_20190609222322.log
- delete mode 100644 log/collect_20190609222344.log
- delete mode 100644 log/collect_20190609222406.log
- delete mode 100644 log/collect_20190609223917.log
- delete mode 100644 log/collect_20190609224303.log
- delete mode 100644 log/collect_20190609224350.log
- delete mode 100644 log/collect_20190609230133.log
- delete mode 100644 log/collect_20190610091021.log
- create mode 100644 log/collect_2019061010.log
- delete mode 100644 log/collect_20190610102534.log
- delete mode 100644 log/collect_20190610102644.log
- delete mode 100644 log/collect_20190610102703.log
- delete mode 100644 log/collect_20190610102807.log
- delete mode 100644 log/collect_20190610102916.log
- delete mode 100644 log/collect_20190610103025.log
- delete mode 100644 log/collect_20190610103134.log
- delete mode 100644 log/collect_20190610103238.log
- delete mode 100644 log/collect_20190610103346.log
- delete mode 100644 log/collect_20190610103454.log
- delete mode 100644 log/collect_20190610103558.log
- delete mode 100644 log/collect_20190610103704.log
- delete mode 100644 log/collect_20190610103808.log
- delete mode 100644 log/collect_20190610103912.log
- delete mode 100644 log/collect_20190610104019.log
- delete mode 100644 log/collect_20190610104123.log
- rename log/{collect_20190610104226.log => collect_20190610104335.log} (92%)
- create mode 100644 log/collect_20190610104438.log
- create mode 100644 log/collect_20190610104539.log
-To github.com:zeuslabs/dees2projectteam2.git
-   755b509..1846dd4  master -> master
-2019-06-10 10:50:03
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:51:06
-[master 6df5b8e] auto git push
- 10 files changed, 112 insertions(+), 63 deletions(-)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131464708.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131464868.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131465.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131465.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131418420.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131418420.json
- delete mode 100644 log/collect_20190610104335.log
- delete mode 100644 log/collect_20190610104438.log
- delete mode 100644 log/collect_20190610104539.log
-To github.com:zeuslabs/dees2projectteam2.git
-   5db2932..6df5b8e  master -> master
-2019-06-10 10:51:11
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:52:12
-[master 16353fd] auto git push
- 7 files changed, 126 insertions(+)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131531307.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131532255.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131532.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131532.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131499416.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131499416.json
-To github.com:zeuslabs/dees2projectteam2.git
-   6df5b8e..16353fd  master -> master
-2019-06-10 10:52:18
-start run
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:53:21
-[master 1194e92] auto git push
- 8 files changed, 126 insertions(+)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131599886.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131600852.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131600.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131600.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131569421.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131569421.json
-To github.com:zeuslabs/dees2projectteam2.git
-   16353fd..1194e92  master -> master
-2019-06-10 10:53:26
-start run
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:54:29
-[master 7a2dc34] auto git push
- 8 files changed, 124 insertions(+)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131668079.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131668198.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131668.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131668.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131607917.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131607917.json
- create mode 100644 bin/.collect.sh.swp
-To github.com:zeuslabs/dees2projectteam2.git
-   1194e92..7a2dc34  master -> master
-2019-06-10 10:54:34
-start run
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-2019-06-10 10:55:37
-[master dce0a3a] auto git push
- 8 files changed, 125 insertions(+)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131735856.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131736819.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131736.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131736.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131734915.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131734915.json
-To github.com:zeuslabs/dees2projectteam2.git
-   7a2dc34..dce0a3a  master -> master
-2019-06-10 10:55:42
-         
-==================================================
-[[start task]]
-2019-06-10 10:56:43
-btc : Response Success!
-btc : Save Success!
-================================
-eth : Response Success!
-eth : Save Success!
-================================
-BTC : Response Success!
-BTC : Save Success!
-================================
-ETH : Response Success!
-ETH : Save Success!
-================================
-btc_krw : Response Success!
-btc_krw : Save Success!
-================================
-eth_krw : Response Success!
-eth_krw : Save Success!
-================================
-Save data finished!
-[[git run]]
-2019-06-10 10:56:45
-[master c6aa80c] auto git push
- 9 files changed, 136 insertions(+), 2 deletions(-)
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131804312.json
- create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131804419.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131805.json
- create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131805.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131790449.json
- create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131790449.json
- delete mode 100644 bin/.collect.sh.swp
-To github.com:zeuslabs/dees2projectteam2.git
-   dce0a3a..c6aa80c  master -> master
-[[end task]]
-2019-06-10 10:56:50
-         
 #########################################################
 [[start task]]
 2019-06-10 10:57:47
@@ -376,3 +23,40 @@ Save data finished!
          
 [[git run]]
 2019-06-10 10:57:50
+[master a2f06bc] auto git push
+ 8 files changed, 114 insertions(+), 5 deletions(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131868593.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131869623.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131869.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131869.json
+To github.com:zeuslabs/dees2projectteam2.git
+   c6aa80c..a2f06bc  master -> master
+         
+[[end task]]
+2019-06-10 10:57:55
+         
+#########################################################
+[[start task]]
+2019-06-10 10:58:56
+btc : Response Success!
+btc : Save Success!
+================================
+eth : Response Success!
+eth : Save Success!
+================================
+BTC : Response Success!
+BTC : Save Success!
+================================
+ETH : Response Success!
+ETH : Save Success!
+================================
+btc_krw : Response Success!
+btc_krw : Save Success!
+================================
+eth_krw : Response Success!
+eth_krw : Save Success!
+================================
+Save data finished!
+         
+[[git run]]
+2019-06-10 10:58:58
