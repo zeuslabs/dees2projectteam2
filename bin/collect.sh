@@ -7,17 +7,19 @@ fi
 ((
 
   echo '         '
-  echo '=================================================='
+  echo '#########################################################'
   echo '[[start task]]'
   date +'%Y-%m-%d %X';
   python ./Collect/main.py;
 
+  echo '         '
   echo '[[git run]]'
   date +'%Y-%m-%d %X';
   git add .;
   git commit -m "auto git push";
   git push origin master -f;
 
+  echo '         '
   echo '[[end task]]'
   date +'%Y-%m-%d %X';
 
