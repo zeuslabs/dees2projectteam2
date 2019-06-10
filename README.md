@@ -33,7 +33,7 @@
     ```
         1분마다 실행
     ```
-    - 내용
+    - task 내용
     ```
         - ./bin/collect.sh shell 을 실행
         - Repository 에 년/월/일 경로에 json 파일 저장
