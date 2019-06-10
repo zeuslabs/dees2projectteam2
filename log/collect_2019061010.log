@@ -78,3 +78,75 @@ eth_krw : Save Success!
 ================================
 Save data finished!
 2019-06-10 10:49:56
+[master 1846dd4] auto git push
+ 68 files changed, 690 insertions(+), 952 deletions(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131015819.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131080121.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131140576.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131203474.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131267806.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131331610.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/BTC_1560131396381.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131015939.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131079326.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131140629.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131203587.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131267020.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131330804.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/10/ETH_1560131395571.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131016.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131080.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131141.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131204.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131267.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131331.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/btc_1560131396.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131016.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131080.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131141.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131204.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131267.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131331.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/10/eth_1560131396.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560130975930.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131134413.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/btc_krw_1560131248916.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560130975930.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131134413.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/10/eth_krw_1560131248916.json
+ create mode 100644 bin/gitpush.sh
+ delete mode 100644 log/collect_20190609222200.log
+ delete mode 100644 log/collect_20190609222217.log
+ delete mode 100644 log/collect_20190609222238.log
+ delete mode 100644 log/collect_20190609222300.log
+ delete mode 100644 log/collect_20190609222322.log
+ delete mode 100644 log/collect_20190609222344.log
+ delete mode 100644 log/collect_20190609222406.log
+ delete mode 100644 log/collect_20190609223917.log
+ delete mode 100644 log/collect_20190609224303.log
+ delete mode 100644 log/collect_20190609224350.log
+ delete mode 100644 log/collect_20190609230133.log
+ delete mode 100644 log/collect_20190610091021.log
+ create mode 100644 log/collect_2019061010.log
+ delete mode 100644 log/collect_20190610102534.log
+ delete mode 100644 log/collect_20190610102644.log
+ delete mode 100644 log/collect_20190610102703.log
+ delete mode 100644 log/collect_20190610102807.log
+ delete mode 100644 log/collect_20190610102916.log
+ delete mode 100644 log/collect_20190610103025.log
+ delete mode 100644 log/collect_20190610103134.log
+ delete mode 100644 log/collect_20190610103238.log
+ delete mode 100644 log/collect_20190610103346.log
+ delete mode 100644 log/collect_20190610103454.log
+ delete mode 100644 log/collect_20190610103558.log
+ delete mode 100644 log/collect_20190610103704.log
+ delete mode 100644 log/collect_20190610103808.log
+ delete mode 100644 log/collect_20190610103912.log
+ delete mode 100644 log/collect_20190610104019.log
+ delete mode 100644 log/collect_20190610104123.log
+ rename log/{collect_20190610104226.log => collect_20190610104335.log} (92%)
+ create mode 100644 log/collect_20190610104438.log
+ create mode 100644 log/collect_20190610104539.log
+To github.com:zeuslabs/dees2projectteam2.git
+   755b509..1846dd4  master -> master
+2019-06-10 10:50:03
