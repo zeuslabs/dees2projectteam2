@@ -32,22 +32,23 @@
 
     ![AirFlow](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/airflow.JPG)
     - DAG - [collect]
-    
-    ![DAG](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/dag.JPG)    
     ```
         1분마다 실행
     ```
-    - Task
     
-    ![TASK](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/task.JPG)    
+    ![DAG](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/dag.JPG)    
+    - Task    
         - [print_date]
         ```
-        - 날짜 print
+            - 날짜 print
         ```
         - [collect_task]        
         ```
-        - ./bin/collect.sh shell 을 실행
-        - Repository 에 년/월/일 경로에 json 파일 저장
-        - 저장된 파일을 git push 
+            - ./bin/collect.sh shell 을 실행
+            - Repository 에 년/월/일 경로에 json 파일 저장
+            - 저장된 파일을 git push 
         ```
+
+    ![TASK](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/task.JPG)    
+    
 
