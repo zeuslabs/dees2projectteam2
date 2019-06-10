@@ -33,7 +33,7 @@
     ![AirFlow](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/airflow.JPG)
     - DAG - [collect]
     
-    - ![DAG](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/dag.JPG)    
+    ![DAG](https://github.com/zeuslabs/dees2projectteam2/blob/master/img/dag.JPG)    
     ```
         1분마다 실행
     ```
