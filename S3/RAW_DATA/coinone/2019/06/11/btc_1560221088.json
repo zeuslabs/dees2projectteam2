@@ -1,0 +1,16 @@
+{
+    "low": "9375000.0", 
+    "yesterday_last": "9392000.0", 
+    "last": "9659000.0", 
+    "yesterday_volume": "935.2647", 
+    "timestamp": "1560221088", 
+    "yesterday_low": "9305000.0", 
+    "volume": "969.9942", 
+    "currency": "btc", 
+    "high": "9783000.0", 
+    "result": "success", 
+    "errorCode": "0", 
+    "yesterday_first": "9690000.0", 
+    "yesterday_high": "9730000.0", 
+    "first": "9392000.0"
+}
