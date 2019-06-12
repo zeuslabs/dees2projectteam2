@@ -1,0 +1,18 @@
+{
+    "status": "0000", 
+    "data": {
+        "24H_fluctate": "-12000", 
+        "24H_fluctate_rate": "-0.12", 
+        "average_price": "9582794.0055", 
+        "opening_price": "9647000", 
+        "units_traded": "3415.80760933", 
+        "buy_price": "9634000", 
+        "sell_price": "9635000", 
+        "min_price": "9450000", 
+        "volume_7day": "24655.89733416", 
+        "date": "1560315676024", 
+        "closing_price": "9635000", 
+        "volume_1day": "3415.80760933", 
+        "max_price": "9735000"
+    }
+}
