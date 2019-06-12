@@ -1,0 +1,17 @@
+         
+#########################################################
+[[start task]]
+2019-06-12 02:43:39
+HTTPSConnectionPool(host='api.coinone.co.kr', port=443): Max retries exceeded with url: /ticker/?currency=btc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f913d78ca10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+btc : Response Success!
+Traceback (most recent call last):
+  File "./Collect/main.py", line 39, in <module>
+    main()
+  File "./Collect/main.py", line 27, in main
+    parser.save(response, currency)
+  File "/home/zeus/workspace/dees2projectteam2/Collect/fastcampus/dees2/projectteam2/coinone.py", line 37, in save
+    result = response.json()
+AttributeError: 'str' object has no attribute 'json'
+         
+[[git run]]
+2019-06-12 09:05:03
