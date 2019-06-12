@@ -1085,3 +1085,19 @@ Save data finished!
          
 [[git run]]
 2019-06-12 12:37:02
+[master 0261ce89] auto git push
+ 7 files changed, 129 insertions(+)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/12/BTC_1560310618038.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/12/ETH_1560310617264.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/12/btc_1560310617.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/12/eth_1560310618.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/12/btc_krw_1560310573424.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/12/eth_krw_1560310573424.json
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+         
+[[end task]]
+2019-06-12 12:37:03
