@@ -1200,3 +1200,40 @@ Save data finished!
          
 [[git run]]
 2019-06-12 14:34:08
+[master b0c3df0a] auto git push
+ 7 files changed, 109 insertions(+), 4 deletions(-)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/12/BTC_1560317644312.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/12/ETH_1560317644387.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/12/btc_1560317644.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/12/eth_1560317644.json
+To github.com:zeuslabs/dees2projectteam2.git
+   ba1e5cd1..b0c3df0a  master -> master
+         
+[[end task]]
+2019-06-12 14:34:13
+         
+#########################################################
+[[start task]]
+2019-06-12 14:35:10
+btc : Response Success!
+btc : Save Success!
+================================
+eth : Response Success!
+eth : Save Success!
+================================
+BTC : Response Success!
+BTC : Save Success!
+================================
+ETH : Response Success!
+ETH : Save Success!
+================================
+btc_krw : Response Success!
+btc_krw : Save Success!
+================================
+eth_krw : Response Success!
+eth_krw : Save Success!
+================================
+Save data finished!
+         
+[[git run]]
+2019-06-12 14:35:12
