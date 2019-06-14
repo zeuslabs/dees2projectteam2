@@ -24,3 +24,53 @@ Save data finished!
          
 [[git run]]
 2019-06-14 15:48:14
+[master 3cc79fa3] auto git push
+ 18 files changed, 289 insertions(+)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/BTC_1560494743504.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/BTC_1560494749299.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/BTC_1560494887104.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/ETH_1560494743640.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/ETH_1560494749604.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/ETH_1560494887175.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/btc_1560494743.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/btc_1560494749.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/btc_1560494886.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/eth_1560494743.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/eth_1560494749.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/eth_1560494887.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/btc_krw_1560494557444.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/btc_krw_1560494884915.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/eth_krw_1560494557444.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/eth_krw_1560494884915.json
+ create mode 100644 log/collect_2019061415.log
+To github.com:zeuslabs/dees2projectteam2.git
+ + 12a87827...3cc79fa3 master -> master (forced update)
+         
+[[end task]]
+2019-06-14 15:49:53
+         
+#########################################################
+[[start task]]
+2019-06-14 15:51:03
+btc : Response Success!
+btc : Save Success!
+================================
+eth : Response Success!
+eth : Save Success!
+================================
+BTC : Response Success!
+BTC : Save Success!
+================================
+ETH : Response Success!
+ETH : Save Success!
+================================
+btc_krw : Response Success!
+btc_krw : Save Success!
+================================
+eth_krw : Response Success!
+eth_krw : Save Success!
+================================
+Save data finished!
+         
+[[git run]]
+2019-06-14 15:51:08
