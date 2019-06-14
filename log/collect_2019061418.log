@@ -565,3 +565,33 @@ Save data finished!
          
 [[git run]]
 2019-06-14 18:18:57
+[master 011da3c8] auto git push
+ 7 files changed, 131 insertions(+)
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/BTC_1560503936814.json
+ create mode 100644 S3/RAW_DATA/bithumb/2019/06/14/ETH_1560503936887.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/btc_1560503936.json
+ create mode 100644 S3/RAW_DATA/coinone/2019/06/14/eth_1560503936.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/btc_krw_1560503911417.json
+ create mode 100644 S3/RAW_DATA/korbit/2019/06/14/eth_krw_1560503911417.json
+To github.com:zeuslabs/dees2projectteam2.git
+   1866dade..011da3c8  master -> master
+         
+[[end task]]
+2019-06-14 18:19:03
+         
+#########################################################
+[[start task]]
+2019-06-14 18:20:21
+HTTPSConnectionPool(host='api.coinone.co.kr', port=443): Max retries exceeded with url: /ticker/?currency=btc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fca2453ca10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+btc : Response Success!
+Traceback (most recent call last):
+  File "./Collect/main.py", line 39, in <module>
+    main()
+  File "./Collect/main.py", line 27, in main
+    parser.save(response, currency)
+  File "/home/zeus/workspace/dees2projectteam2/Collect/fastcampus/dees2/projectteam2/coinone.py", line 37, in save
+    result = response.json()
+AttributeError: 'str' object has no attribute 'json'
+         
+[[git run]]
+2019-06-14 18:20:33
