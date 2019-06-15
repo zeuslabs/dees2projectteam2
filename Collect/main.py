@@ -9,7 +9,7 @@ from fastcampus.dees2.projectteam2.korbit import ParserKorbit
 def main():
     parser_class = {
         "bithumb": ParserBithumb,
-        # "coinone": ParserCoinone,
+        "coinone": ParserCoinone,
         "korbit": ParserKorbit
     }
 
