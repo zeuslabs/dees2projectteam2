@@ -203,3 +203,30 @@ KeyError: 'timestamp'
          
 [[git run]]
 2019-06-15 10:46:38
+[master fe0c99be] auto git push
+ 1 file changed, 23 insertions(+)
+To github.com:zeuslabs/dees2projectteam2.git
+   84da5d25..fe0c99be  master -> master
+         
+[[end task]]
+2019-06-15 10:46:46
+         
+#########################################################
+[[start task]]
+2019-06-15 10:48:01
+BTC : Response Success!
+BTC : Save Success!
+================================
+ETH : Response Success!
+ETH : Save Success!
+================================
+btc_krw : Response Success!
+btc_krw : Save Success!
+================================
+eth_krw : Response Success!
+eth_krw : Save Success!
+================================
+Save data finished!
+         
+[[git run]]
+2019-06-15 10:48:06
