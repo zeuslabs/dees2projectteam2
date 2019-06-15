@@ -65,3 +65,26 @@ KeyError: 'timestamp'
          
 [[git run]]
 2019-06-15 10:37:24
+[master 01749498] auto git push
+ 1 file changed, 23 insertions(+)
+To github.com:zeuslabs/dees2projectteam2.git
+   10d97bc9..01749498  master -> master
+         
+[[end task]]
+2019-06-15 10:37:31
+         
+#########################################################
+[[start task]]
+2019-06-15 10:38:45
+btc : Response Success!
+Traceback (most recent call last):
+  File "./Collect/main.py", line 39, in <module>
+    main()
+  File "./Collect/main.py", line 27, in main
+    parser.save(response, currency)
+  File "/home/zeus/workspace/dees2projectteam2/Collect/fastcampus/dees2/projectteam2/coinone.py", line 38, in save
+    date = result["timestamp"]
+KeyError: 'timestamp'
+         
+[[git run]]
+2019-06-15 10:38:49
